@@ -1,0 +1,28 @@
+{
+  "name": "junaidrahim.me",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junaidrahim/junaidrahim.me.git"
+  },
+  "author": "Junaid H Rahim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junaidrahim/junaidrahim.me/issues"
+  },
+  "homepage": "https://github.com/junaidrahim/junaidrahim.me#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.18.8"
+  }
+}
