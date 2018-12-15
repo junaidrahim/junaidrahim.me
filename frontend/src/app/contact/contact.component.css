@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "NunitoSans-Black";
+    src: url("../../assets/NunitoSans-Bold.ttf");
+}
+
+.contact_container h1 {
+    font-size: 80px;
+    font-family: "NunitoSans-Black", sans-serif;
+}
