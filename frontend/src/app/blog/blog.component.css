@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "NunitoSans-Bold";
+    src: url("../../assets/NunitoSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "NunitoSans-Light";
+    src: url("../../assets/NunitoSans-Light.ttf");
+}
+
+
+@font-face {
+    font-family: "Caveat";
+    src: url("../../assets/Caveat-Regular.ttf");
+}
+
+.blog_container {
+	margin: 0px;
+	padding: 0px;
+}
+
+.blog_container .system_container {
+	background: white;
+	height: 450px;
+}
+
+.blog_container .system_container h1 {
+	margin: 0px;
+	text-align: center;
+	padding: 30px;
+	padding-bottom: 10px;
+	font-size: 70px;
+	font-family: "NunitoSans-Bold", sans-serif;
+	z-index: 2;
+}
+
+.blog_container .system_container h3.quote {
+	position: relative;
+	text-align: center;
+	font-size: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: "NunitoSans-Light", sans-serif;
+	z-index: 2;
+}
+
+
+/*############# BLOG #################*/
+
+.blog_container .blog_link_container {
+	position: relative;
+	background: #e1f5fe;	
+	height: 500px;
+}
+
+.blog_container .blog_link_container h1 {
+	position: relative;
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-bottom: 0px;
+	margin-right: 40px;
+	padding: 0px;
+	font-size: 70px;
+	font-family: "NunitoSans-Bold", sans-serif;
+	z-index: 2;
+}
+
+.blog_container .blog_link_container p.quote {
+	position: relative;
+	margin-top: 5px;
+	margin-left: 80px;
+	margin-bottom: 0px;
+	margin-right: 40px;
+	padding: 0px;
+	font-size: 35px;
+	font-family: "Caveat", cursive;
+	z-index: 2;
+}
+
+.blog_container .blog_link_container p.blog_intro {
+	position: relative;
+	margin-top: 5px;
+	margin-left: 80px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	padding: 0px;
+	font-size: 45px;
+	font-family: "Caveat", cursive;
+	z-index: 2;
+}
+
+.blog_container .blog_link_container .blog_link_container__bg {
+	position: absolute;
+ 	top: 0px;
+  	bottom: 0;
+ 	right: 0px;
+  	left: 0px;
+  	width: 100%;
+  	height: auto;
+  	background-color: #b3e5fc;
+  	transform: skewY(-15deg);
+  	transform-origin: top left;
+  	z-index: 1;
+}
+
+.blog_container .blog_link_container a {
+	position: relative;
+	border-radius: 8px;
+	font-family: "NunitoSans-Bold", sans-serif;
+	background-color: #ff1744;
+	border: none;
+	color: #FFFFFF;
+	margin: 30px;
+	margin-left: 80px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 20px;
+	width: 200px;
+	transition: 0.6s;
+	z-index: 2;
+}
+
+.blog_container .blog_link_container a:hover {
+	background-color: #d50000; 
+}
+
+
+
+/*   MOBILE    */
+
+@media screen and (max-width: 800px) {
+	.blog_container .blog_link_container {	
+		height: 650px;
+	}
+
+	.blog_container .system_container {
+		height: 520px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.blog_container .blog_link_container {	
+		height: 750px;
+	}
+
+	.blog_container .blog_link_container h1 {
+		margin-left: 50px;
+		font-size: 60px;
+		font-family: "NunitoSans-Bold", sans-serif;
+	}
+
+	.blog_container .blog_link_container p.quote {
+		margin-top: 20px;
+		margin-left: 50px;
+		font-size: 35px;
+	}
+
+	.blog_container .blog_link_container p.blog_intro {
+		margin-top: 20px;
+		margin-left: 50px;
+		font-size: 35px;
+	}
+
+	.blog_container .blog_link_container .blog_link_container__bg {
+		transform: skewY(-20deg);
+	}
+
+	.blog_container .blog_link_container a {
+		text-align: center;
+		margin-left: 50px;
+	}
+
+	.blog_container .system_container {
+		height: 570px;
+	}
+
+	.blog_container .system_container h1 {
+		font-size: 55px;
+	}
+	.blog_container .system_container h3.quote {
+		font-size: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+}
