@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "NunitoSans-Black";
+    src: url("../../assets/NunitoSans-Black.ttf");
+}
+
+@font-face {
     font-family: "NunitoSans-Light";
     src: url("../../assets/NunitoSans-Light.ttf");
 }
@@ -147,8 +152,8 @@
 
 	.blog_container .blog_link_container h1 {
 		margin-left: 50px;
+		font-family: "NunitoSans-Black", sans-serif;
 		font-size: 60px;
-		font-family: "NunitoSans-Bold", sans-serif;
 	}
 
 	.blog_container .blog_link_container p.quote {
@@ -178,6 +183,7 @@
 
 	.blog_container .system_container h1 {
 		font-size: 55px;
+		font-family: "NunitoSans-Black", sans-serif;
 	}
 	.blog_container .system_container h3.quote {
 		font-size: 30px;
