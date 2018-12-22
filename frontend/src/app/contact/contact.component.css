@@ -11,68 +11,68 @@
 .contact_container {
 	width: 100%;
 	background-color: #212121;
-	margin: 0px;
-	padding: 0px;
-	padding-top: 30px;
+	margin: 0rem;
+	padding: 0rem;
+	padding-top: 1rem;
+	height: auto;
 }
 
 .contact_container h1 {
 	font-family: "NunitoSans-Bold", sans-serif;
-	font-size: 60px;
+	font-size: 4rem;
 	color: white;
-	margin: 0px;
-	padding: 10px;
-	padding-left: 40px;
-	padding-bottom: 0px;
+	margin: 0rem;
+	padding: 1rem;
+	padding-left: 3rem;
+	padding-bottom: 0rem;
 }
 
 .contact_container h3 {
 	color: white;
-	margin: 0px;
-	padding: 10px;
-	padding-left: 45px;
-	font-size: 30px;
+	margin: 0rem;
+	padding-left: 3.3rem;
+	font-size: 2rem;
 	font-family: "NunitoSans-Light", sans-serif;
 }
 
 .contact_container .icon_container .icon {
-	width: 96px;
-	height: 96px;
-	margin: 20px;
+	width: 6rem;
+	height: 6rem;
+	margin: 1rem;
 }
 
 .contact_container .copyright {
 	color: white;
 	font-family: "NunitoSans-Light", sans-serif;
 	text-align: center;
-	margin: 0px;
+	margin: 0rem;
 }
 
 /*####  MOBILE   #####*/
 
 @media screen and (max-width: 600px) {
 	.contact_container h1 {
-		font-size: 40px;
+		font-size: 3rem;
 		text-align: center;
-		padding-left: 0px;
-		padding-right: 0px;
-		padding-top: 0px;
-		padding-bottom: 10px;
+		padding-left: 0rem;
+		padding-right: 0rem;
+		padding-top: 0rem;
+		padding-bottom: 0.6rem;
 	}
 
 	.contact_container h3 {
-		font-size: 20px;
+		font-size: 1.5rem;
 		text-align: center;
-		padding-left: 0px;
-		padding-right: 0px;
-		padding-top: 0px;
-		padding-bottom: 10px;
+		padding-left: 0rem;
+		padding-right: 0rem;
+		padding-top: 0rem;
+		padding-bottom: 0.6rem;
 	}
 
 	.contact_container .icon_container .icon{
-		width: 60px;
-		height: 60px;
-		margin: 10px;
+		width: 4rem;
+		height: 4rem;
+		margin: 0.7rem;
 	}
 }
 

@@ -20,17 +20,18 @@
 }
 
 .blog_container {
-	margin: 0px;
-	padding: 0px;
+	margin: 0rem;
+	padding: 0rem;
 }
 
 .blog_container .system_container {
 	background: white;
 	height: 450px;
+	width: 100%;
 }
 
 .blog_container .system_container h1 {
-	margin: 0px;
+	margin: 0rem;
 	text-align: center;
 	padding: 30px;
 	padding-bottom: 10px;
@@ -56,6 +57,7 @@
 	position: relative;
 	background: #e1f5fe;	
 	height: 500px;
+	width: 100%;
 }
 
 .blog_container .blog_link_container h1 {
@@ -64,7 +66,7 @@
 	margin-left: 80px;
 	margin-bottom: 0px;
 	margin-right: 40px;
-	padding: 0px;
+	padding: 0rem;
 	font-size: 70px;
 	font-family: "NunitoSans-Bold", sans-serif;
 	z-index: 2;
@@ -76,7 +78,7 @@
 	margin-left: 80px;
 	margin-bottom: 0px;
 	margin-right: 40px;
-	padding: 0px;
+	padding: 0rem;
 	font-size: 35px;
 	font-family: "Caveat", cursive;
 	z-index: 2;
@@ -88,7 +90,7 @@
 	margin-left: 80px;
 	margin-right: 20px;
 	margin-bottom: 50px;
-	padding: 0px;
+	padding: 0rem;
 	font-size: 45px;
 	font-family: "Caveat", cursive;
 	z-index: 2;
@@ -96,10 +98,10 @@
 
 .blog_container .blog_link_container .blog_link_container__bg {
 	position: absolute;
- 	top: 0px;
-  	bottom: 0;
- 	right: 0px;
-  	left: 0px;
+ 	top: 0rem;
+  	bottom: 0rem;
+ 	right: 0rem;
+  	left: 0rem;
   	width: 100%;
   	height: auto;
   	background-color: #b3e5fc;
@@ -129,7 +131,6 @@
 .blog_container .blog_link_container a:hover {
 	background-color: #d50000; 
 }
-
 
 
 /*   MOBILE    */
@@ -185,6 +186,7 @@
 		font-size: 55px;
 		font-family: "NunitoSans-Black", sans-serif;
 	}
+
 	.blog_container .system_container h3.quote {
 		font-size: 30px;
 		padding-left: 15px;
