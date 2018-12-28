@@ -118,8 +118,15 @@
     }   
 
     .projects_container h1 {
+        margin-left: 0rem;
+        text-align: center;
         font-family: "NunitoSans-Black", sans-serif;
         font-size: 3.5rem;
+    }
+
+    .projects_container h3 {
+        margin-left: 0rem;
+        text-align: center;
     }
 
     .projects_container .cards_container .card .title {
