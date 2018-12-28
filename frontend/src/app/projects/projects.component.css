@@ -9,11 +9,134 @@
 }
 
 @font-face {
+    font-family: "NunitoSans-ExtraLight";
+    src: url("../../assets/NunitoSans-ExtraLight.ttf");
+}
+
+
+@font-face {
     font-family: "NunitoSans-Light";
     src: url("../../assets/NunitoSans-Light.ttf");
 }
 
-
 .projects_container {
-    
+    margin: 0rem;
+    padding: 0rem;
+    height: auto;
+    background-color: #fafafa;
 }
+
+.projects_container h1 {
+    margin: 0rem;
+    padding: 0rem;
+    margin-left: 3rem;
+    padding-top: 2rem;
+    font-size: 4rem;
+    font-family: "NunitoSans-Bold", sans-serif;
+}
+
+.projects_container h3 {
+    margin: 0rem;
+    padding: 0rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-family: "NunitoSans-ExtraLight", sans-serif;
+}
+
+.projects_container .cards_container {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.projects_container .cards_container .card {
+    border: 2px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 1rem;
+    background-color: white;
+}
+
+.projects_container .cards_container .card .title{
+    font-family: "NunitoSans-Bold", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.projects_container .cards_container .card .caption {
+    font-family: "NunitoSans-Light", sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+.projects_container .cards_container .card .link_container {
+    text-align: center;
+    padding-top: 2.6rem;
+    padding-bottom: 1rem;
+}
+
+
+.projects_container .cards_container .card a {
+    padding: 0.6rem;
+    font-family: "NunitoSans-Bold", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 0.3rem;
+    background-color: #ef5350;
+    text-decoration: none;
+    width: 5rem;
+    transition: 0.5s
+}
+
+
+.projects_container .cards_container .card a:hover {
+    background-color: #b71c1c;
+}
+
+
+
+/* MOBILE */
+
+@media screen and (max-width: 800px) {
+
+    .projects_container .cards_container {
+        grid-template-columns: repeat(2, 1fr);
+    }   
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .projects_container .cards_container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0.7rem;
+    }   
+
+    .projects_container h1 {
+        font-family: "NunitoSans-Black", sans-serif;
+        font-size: 3.5rem;
+    }
+
+    .projects_container .cards_container .card .title {
+        font-size: 2.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
