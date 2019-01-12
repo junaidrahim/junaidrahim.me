@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "NunitoSans-Bold";
-    src: url("../../assets/NunitoSans-Bold.ttf");
-}
-
 .resume_container {
     margin: 0px;
     padding: 3rem;
@@ -16,7 +11,8 @@
 
 .button {
     border-radius: 0.6rem;
-    font-family: "NunitoSans-Bold", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
     background-color: #0288d1;
     border: none;
     color: #FFFFFF;

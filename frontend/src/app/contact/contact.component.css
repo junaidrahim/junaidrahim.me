@@ -1,13 +1,3 @@
-@font-face {
-	font-family: "NunitoSans-Bold";
-	src: url("../../assets/NunitoSans-Bold.ttf");
-}
-
-@font-face {
-	font-family: "NunitoSans-Light";
-	src: url("../../assets/NunitoSans-Light.ttf");
-}
-
 .contact_container {
 	width: 100%;
 	background-color: #212121;
@@ -18,7 +8,8 @@
 }
 
 .contact_container h1 {
-	font-family: "NunitoSans-Bold", sans-serif;
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 800;
 	font-size: 4rem;
 	color: white;
 	margin: 0rem;
@@ -32,7 +23,8 @@
 	margin: 0rem;
 	padding-left: 3.3rem;
 	font-size: 2rem;
-	font-family: "NunitoSans-Light", sans-serif;
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 300;
 }
 
 .contact_container .icon_container .icon {

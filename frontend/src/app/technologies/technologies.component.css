@@ -1,24 +1,3 @@
-@font-face {
-    font-family: "NunitoSans-Bold";
-    src: url("../../assets/NunitoSans-Bold.ttf");
-}
-
-@font-face {
-    font-family: "NunitoSans-Black";
-    src: url("../../assets/NunitoSans-Black.ttf");
-}
-
-@font-face {
-    font-family: "NunitoSans-ExtraLight";
-    src: url("../../assets/NunitoSans-ExtraLight.ttf");
-}
-
-
-@font-face {
-    font-family: "NunitoSans-Light";
-    src: url("../../assets/NunitoSans-Light.ttf");
-}
-
 .technologies_container {
 	margin: 0rem;
 	padding: 0rem;
