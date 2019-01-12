@@ -555,7 +555,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/junaid/Code/junaidrahim.me/frontend/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! /home/junaidrahim/Code/Github-Projects/junaidrahim.me/frontend/src/styles.css */"./src/styles.css");
 
 
 /***/ })
