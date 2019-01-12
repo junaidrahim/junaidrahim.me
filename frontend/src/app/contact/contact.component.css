@@ -35,7 +35,8 @@
 
 .contact_container .copyright {
 	color: white;
-	font-family: "NunitoSans-Light", sans-serif;
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 300;
 	text-align: center;
 	margin: 0rem;
 }

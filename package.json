@@ -5,20 +5,20 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "cd frontend/ && ng build && cd .. && npm start"
+    "build-frontend": "cd frontend/ && ng build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/junaidrahim/junaidrahim.me.git"
+    "url": "git+https://github.com/junaidrahim/junaidrahim.github.io.git"
   },
   "author": "Junaid H Rahim",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/junaidrahim/junaidrahim.me/issues"
+    "url": "https://github.com/junaidrahim/junaidrahim.github.io/issues"
   },
-  "homepage": "https://github.com/junaidrahim/junaidrahim.me#readme",
+  "homepage": "https://github.com/junaidrahim/junaidrahim.github.io",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
   },
   "devDependencies": {
     "nodemon": "^1.18.8"
