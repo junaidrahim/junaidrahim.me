@@ -5,7 +5,7 @@
 
 .blog_container .system_container {
     background: white;
-    height: 28rem;
+    height: 24rem;
     width: 100%;
 }
 
@@ -15,7 +15,7 @@
     text-align: center;
     padding: 2rem;
     padding-bottom: 1rem;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 800;
     z-index: 2;
@@ -24,7 +24,7 @@
 .blog_container .system_container h3.quote {
     position: relative;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     font-family: "Nunito Sans", sans-serif;
@@ -38,7 +38,7 @@
 .blog_container .blog_link_container {
     position: relative;
     background: #f5f5f5;	
-    height: 34rem;
+    height: 30rem;
     width: 100%;
 }
 
@@ -49,7 +49,7 @@
     margin-bottom: 0rem;
     margin-right: 4.5rem;
     padding: 0rem;
-    font-size: 4.7rem;
+    font-size: 4rem;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 800;
     z-index: 2;
@@ -62,7 +62,7 @@
     margin-bottom: 0px;
     margin-right: 3rem;
     padding: 0rem;
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-family: "Caveat", cursive;
     font-weight: 400;
     z-index: 2;
@@ -75,7 +75,7 @@
     margin-right: 2rem;
     margin-bottom: 3rem;
     padding: 0rem;
-    font-size: 2.6rem;
+    font-size: 2rem;
     font-family: "Caveat", cursive;
     font-weight: 400;
     z-index: 2;
@@ -107,8 +107,8 @@
     margin-left: 5rem;
     text-align: center;
     text-decoration: none;
-    font-size: 1.6rem;
-    padding: 1.3rem;
+    font-size: 1.2rem;
+    padding: 1rem;
     width: 10rem;
     transition: 0.6s;
     z-index: 2;
@@ -134,7 +134,7 @@
 @media screen and (max-width: 600px) {
 
     .blog_container .blog_link_container {	
-        height: 51rem;
+        height: 44rem;
     }
 
     .blog_container .blog_link_container h1 {
@@ -148,13 +148,13 @@
     .blog_container .blog_link_container p.quote {
         margin-top: 1.5rem;
         margin-left: 2.4rem;
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
 
     .blog_container .blog_link_container p.blog_intro {
         margin-top: 1.5rem;
         margin-left: 2.4rem;
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
 
     .blog_container .blog_link_container .blog_link_container__bg {
@@ -167,7 +167,7 @@
     }
 
     .blog_container .system_container {
-        height: 32rem;
+        height: 24rem;
     }
 
     .blog_container .system_container h1 {
@@ -177,7 +177,7 @@
     }
 
     .blog_container .system_container h3.quote {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }

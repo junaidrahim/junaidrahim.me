@@ -14,7 +14,7 @@
     margin-left: 3rem;
     padding-top: 2rem;
     color: black;
-    font-size: 4rem;
+    font-size: 3.3rem;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 900;
 }
@@ -25,7 +25,7 @@
     margin-left: 3rem;
     margin-right: 1rem;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 400;
 }
@@ -49,7 +49,7 @@
 .projects_container .cards_container .card .title{
     font-family: "Nunito Sans", sans-serif;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     margin: 0rem;
     margin-top: 0.5rem;
@@ -59,7 +59,7 @@
 .projects_container .cards_container .card .caption {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 
@@ -75,7 +75,7 @@
     padding: 0.6rem;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
     border-radius: 0.3rem;
     background-color: #ef5350;
@@ -112,16 +112,17 @@
         text-align: center;
         font-family: "Nunito Sans", sans-serif;
         font-weight: 900;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     .projects_container h3 {
         margin: 0.7rem;
         text-align: center;
+        font-size: 1.15rem;
     }
 
     .projects_container .cards_container .card .title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
 }
