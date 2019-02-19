@@ -6,11 +6,22 @@
 }
 
 .about-me_container h1 {
-    font-family: "Nunito-Sans", sans-serif;
-    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
     margin: 0rem;
     margin-top: 2rem;
     margin-left: 2rem;
     font-size: 3rem;
+    color: white;
+}
+
+.about-me_container p {
+    font-family: "Nunito-Sans", sans-serif;
+    font-weight: 300;
+    margin: 0rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    font-size: 1.3rem;
     color: white;
 }
