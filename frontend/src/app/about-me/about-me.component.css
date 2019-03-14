@@ -1,8 +1,8 @@
 .about-me_container {
     margin: 0rem;
     padding: 1rem;
-    background-color: #263238;
-    height: 26rem;
+    background-color: #212121;
+    height: auto;
 }
 
 .about-me_container h1 {

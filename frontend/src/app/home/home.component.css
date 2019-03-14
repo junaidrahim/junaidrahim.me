@@ -1,0 +1,15 @@
+.home_container {
+	background-color: #212121;
+	height: 39rem;
+}
+
+.home_container h1 {
+	font-family: "Nunito Sans", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size : 4rem;
+	color: white;
+	margin: 0rem;
+	padding: 2rem;
+	text-align: center;
+}
