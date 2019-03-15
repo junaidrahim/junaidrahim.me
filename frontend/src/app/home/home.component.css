@@ -13,3 +13,64 @@
 	padding: 2rem;
 	text-align: center;
 }
+
+nav {
+	width: 100%;
+	margin: 0rem;
+	padding-top: 1rem;
+	background-color: #212121;
+}
+
+nav ul {
+	margin: 0rem;
+	padding: 0rem;
+	overflow: hidden;
+	margin-right: 2rem;
+}
+
+nav ul li {
+	list-style: none;
+	margin: 0rem;
+	padding: 1rem;
+	font-family: "Nunito Sans",sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	cursor: pointer;
+	display: block;
+}
+
+nav ul li.nav_element {
+	color: #b2dfdb;
+	float: right;
+}
+
+nav ul li.nav_menu {
+	color: white;
+	display: none
+}
+
+nav ul li.nav_element:hover {
+	transition: 0.4s;
+	color: white;
+	font-weight: 800;
+}
+
+nav ul li.brand{
+	color: white;
+	float: left; 
+	font-size: 2rem;
+	font-weight: 300;
+	margin-left: 1rem;
+	cursor: auto;
+}
+
+@media screen and (max-width: 900px) {
+	nav ul li.nav_element {
+		display: none;
+	}
+
+	nav ul li.nav_menu {
+		display: block;
+		float: right;
+	}
+}
