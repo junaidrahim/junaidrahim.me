@@ -5,7 +5,7 @@
 
 .blog_container .system_container {
     background: white;
-    height: 24rem;
+    height: auto;
     width: 100%;
 }
 
@@ -126,7 +126,7 @@
         height: 42rem;
     }   
     .blog_container .system_container {
-        height: 520px;
+        height: 40rem;
     }
 }
 

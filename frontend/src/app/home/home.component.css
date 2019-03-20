@@ -1,19 +1,9 @@
 .home_container {
 	background-color: #212121;
-	height: 39rem;
+	height: 100%;
 }
 
-.home_container h1 {
-	font-family: "Nunito Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size : 4rem;
-	color: white;
-	margin: 0rem;
-	padding: 2rem;
-	text-align: center;
-}
-
+/* ################# Navbar #############*/
 nav {
 	width: 100%;
 	margin: 0rem;
@@ -72,5 +62,84 @@ nav ul li.brand{
 	nav ul li.nav_menu {
 		display: block;
 		float: right;
+	}
+}
+
+/* #################### HOME #############################*/
+
+.home_container h1 {
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 200;
+	font-size: 3.1rem;
+	margin: 0rem;
+	padding: 0rem;
+	margin-left: 3rem;
+	padding-top: 4rem;
+	color: #b2dfdb;
+}
+
+.home_container h1 br {
+	display: none;
+}
+
+.home_container h1 span.name {
+	font-weight: 900;
+	font-size: 5rem;
+	color: white;
+	margin-left: 0.3rem;
+}
+
+.home_container h2 {
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 300;
+	font-size: 1.95rem;
+	color: white;
+	margin: 0rem;
+	padding: 0rem;
+	margin-left: 3rem;
+}
+
+.home_container h2.email, .home_container h2.chat_notif {
+	color: #b2dfdb;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+}
+
+.home_container .social_media_container {
+	margin-left: 3rem;
+	margin-top: 2rem;
+}
+
+.home_container .social_media_container a {
+	margin-right: 1.5rem;
+}
+
+.home_container .social_media_container img {
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+
+@media screen and (max-width: 600px) {
+	.home_container h1, .home_container h2, .home_container .social_media_container{
+		margin-left: 2rem;
+	}
+
+	.home_container h1 {
+		font-size: 2.5rem;
+	}
+
+	.home_container h1 br {
+		display: block;
+	}
+
+	.home_container h1 span.name {
+		font-size: 4.5rem;
+		margin-left: 0rem;
+	}
+
+	.home_container h2 {
+		font-size: 1.5rem;
 	}
 }
