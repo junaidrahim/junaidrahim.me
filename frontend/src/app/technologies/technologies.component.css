@@ -50,11 +50,13 @@
 	padding: 0rem;
 }
 
+/*######### SKILLS ################*/
+
 .technologies_container .part_graph{
 	padding: 1rem;
-	background-color: #ffffff;
-	margin-left: 2rem;
-	margin-right: 4rem;
+	background-color: #fafafa;
+	padding-left: 4rem;
+	padding-right: 4rem;
 }
 
 .technologies_container .part_graph h1 {
@@ -63,34 +65,51 @@
 }
 
 .technologies_container .part_graph .skill_container {
-	display: block;
-	margin: 1rem;
-	margin-left: 0rem;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-auto-rows: auto;
+	grid-gap: 3rem;
+	
 }
 
-.technologies_container .part_graph .skill_container h3 {
+.technologies_container .part_graph .skill_container .card {
+	border-radius: 0.2rem;
+	width: auto;
+    padding: 1rem;
+    background-color: white;
+	box-shadow: 0 0 5px rgba(0,0,0,.03), 0 5px 22px -8px rgba(0,0,0,.1);
+}
+
+.technologies_container .part_graph .skill_container .card i {
+	font-size: 2rem;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+	
+}
+
+.technologies_container .part_graph .skill_container .card h2 {
 	font-family: "Nunito Sans", sans-serif;
-	font-weight: 400;
-	margin: 0rem;
+	font-weight: 700;
+	text-align: center;
+	margin: 1rem;
 	padding: 0rem;
 }
 
-.technologies_container .part_graph .skill_container .meter {
-	width: 70%;
-	height: 0.6rem;
-	background-color: #e1f5fe;
-	border-radius: 1rem;
-	margin-top: 0.3rem;
+.technologies_container .part_graph .skill_container .card ul {
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 300;
+	list-style: none;
+	padding-left: 1rem;
 }
 
-.technologies_container .part_graph .skill_container .meter span {
-	height: 100%;
-	background-color: #0091ea;
-	border-radius: 1rem;
-	display: block;
+.technologies_container .part_graph .skill_container .card ul li {
+	margin-bottom: 0.3rem;
 }
 
-
+.technologies_container .part_graph .skill_container .card ul li:before {
+	content: "+";
+	padding-right: 0.5rem;
+}
 
 
 
@@ -119,8 +138,11 @@
 	}
 
 	.technologies_container .part_graph {
-		margin-right: 0rem;
-		margin-left: 0.5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	.technologies_container .part_graph .skill_container {
+		grid-template-columns: repeat(1,1fr);
 	}
 }
 

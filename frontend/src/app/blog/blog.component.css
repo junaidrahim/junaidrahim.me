@@ -3,46 +3,13 @@
     padding: 0rem;
 }
 
-.blog_container .system_container {
+.blog_container .blog_intro_container {
     background: white;
     height: auto;
     width: 100%;
 }
 
-.blog_container .system_container h1 {
-    position: relative;
-    margin: 0rem;
-    text-align: center;
-    padding: 2rem;
-    padding-bottom: 1rem;
-    font-size: 4rem;
-    font-family: "Nunito Sans", sans-serif;
-    font-weight: 800;
-    z-index: 2;
-}
-
-.blog_container .system_container h3.quote {
-    position: relative;
-    text-align: center;
-    font-size: 1.65rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    font-family: "Nunito Sans", sans-serif;
-    font-weight: 300;
-    z-index: 2;
-}
-
-
-/*############# BLOG #################*/
-
-.blog_container .blog_link_container {
-    position: relative;
-    background: #fafafa;	
-    height: 30rem;
-    width: 100%;
-}
-
-.blog_container .blog_link_container h1 {
+.blog_container .blog_intro_container h1 {
     position: relative;
     margin-top: 2rem;
     margin-left: 5rem;
@@ -55,7 +22,7 @@
     z-index: 2;
 }
 
-.blog_container .blog_link_container p.quote {
+.blog_container .blog_intro_container p.quote {
     position: relative;
     margin-top: 1rem;
     margin-left: 5rem;
@@ -68,7 +35,7 @@
     z-index: 2;
 }
 
-.blog_container .blog_link_container p.blog_intro {
+.blog_container .blog_intro_container p.blog_intro {
     position: relative;
     margin-top: 0.6rem;
     margin-left: 5rem;
@@ -81,21 +48,7 @@
     z-index: 2;
 }
 
-.blog_container .blog_link_container .blog_link_container__bg {
-    position: absolute;
-    top: 0rem;
-    bottom: 0rem;
-    right: 0rem;
-    left: 0rem;
-    width: 100%;
-    height: auto;
-    background-color: #b3e5fc;
-    transform: skewY(-15deg);
-    transform-origin: top left;
-    z-index: 1;
-}
-
-.blog_container .blog_link_container a {
+.blog_container .blog_intro_container a {
     position: relative;
     border-radius: 0.6rem;
     font-family: "Nunito Sans", sans-serif;
@@ -114,72 +67,103 @@
     z-index: 2;
 }
 
-.blog_container .blog_link_container a:hover {
+.blog_container .blog_intro_container a:hover {
     background-color: #d50000; 
+}
+
+
+
+/*############# BLOG #################*/
+
+.blog_container .recent_posts_container {
+    position: relative;
+    background: #fafafa;	
+    height: 30rem;
+    width: 100%;
+}
+
+.blog_container .recent_posts_container h1 {
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 0rem;
+    margin-right: 4.5rem;
+    padding: 0rem;
+    font-size: 2.6rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    z-index: 2;
+}
+
+.blog_container .recent_posts_container .recent_posts_container__bg {
+    position: absolute;
+    top: 0rem;
+    bottom: 0rem;
+    right: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: auto;
+    background-color: #b3e5fc;
+    transform: skewY(-15deg);
+    transform-origin: top left;
+    z-index: 1;
 }
 
 
 /*   MOBILE    */
 
 @media screen and (max-width: 800px) {
-    .blog_container .blog_link_container {	
+    .blog_container .recent_posts_container {	
         height: 42rem;
     }   
-    .blog_container .system_container {
+    .blog_container .blog_intro_container {
         height: 40rem;
     }
 }
 
 
 @media screen and (max-width: 600px) {
-
-    .blog_container .blog_link_container {	
-        height: 44rem;
+    
+    .blog_container .blog_intro_container {
+        height: 36rem;
     }
-
-    .blog_container .blog_link_container h1 {
+    
+    .blog_container .blog_intro_container h1 {
         margin-left: 2.4rem;
         font-family: "Nunito Sans", sans-serif;
         font-weight: 900;
         font-size: 3.3rem;
         padding-top: 2rem;
     }
-
-    .blog_container .blog_link_container p.quote {
+    
+    .blog_container .blog_intro_container p.quote {
         margin-top: 1.5rem;
         margin-left: 2.4rem;
         font-size: 1.8rem;
     }
-
-    .blog_container .blog_link_container p.blog_intro {
+    
+    .blog_container .blog_intro_container p.blog_intro {
         margin-top: 1.5rem;
         margin-left: 2.4rem;
         font-size: 1.8rem;
     }
-
-    .blog_container .blog_link_container .blog_link_container__bg {
-        transform: skewY(-20deg);
-    }
-
-    .blog_container .blog_link_container a {
+    
+    
+    .blog_container .blog_intro_container a {
         text-align: center;
         margin-left: 2.4rem;
     }
-
-    .blog_container .system_container {
-        height: 24rem;
+    
+    
+    .blog_container .recent_posts_container {	
+        height: 50rem;
+    }
+    
+    .blog_container .recent_posts_container .recent_posts_container__bg {
+        transform: skewY(-20deg);
     }
 
-    .blog_container .system_container h1 {
-        font-size: 3rem;
-        font-family: "Nunito Sans", sans-serif;
-        font-weight: 900;
+    .blog_container .recent_posts_container h1 {
+        margin-left: 2.4rem;
     }
-
-    .blog_container .system_container h3.quote {
-        font-size: 1.4rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
 }
