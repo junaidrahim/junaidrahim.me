@@ -36,11 +36,12 @@
 
 .about-me_container .intro p {
     font-family: "Nunito Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
+    line-height: 1.4rem;
     margin: 0rem;
     margin-top: 1rem;
     margin-right: 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: black;
 }
 

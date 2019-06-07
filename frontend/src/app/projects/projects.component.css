@@ -49,7 +49,7 @@
 .projects_container .cards_container .card .title{
     font-family: "Nunito Sans", sans-serif;
     font-weight: 800;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     text-align: center;
     margin: 0rem;
     margin-top: 0.5rem;
@@ -59,7 +59,7 @@
 .projects_container .cards_container .card .caption {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 
@@ -74,8 +74,8 @@
 .projects_container .cards_container .card a {
     padding: 0.6rem;
     font-family: "Nunito Sans", sans-serif;
-    font-weight: 700;
-    font-size: 1.2rem;
+    font-weight: 400;
+    font-size: 1rem;
     color: white;
     border-radius: 0.3rem;
     background-color: #ef5350;
