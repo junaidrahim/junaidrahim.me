@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
+import  { AfterViewInit } from '@angular/core'
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
@@ -50,17 +50,23 @@ export class BlogComponent implements OnInit {
 
   ngOnInit() {
       this.http.get(this.url).subscribe((data)=>{
+        console.log(data);
         const posts = data["items"];
+
+        const cardCSS: string = "border-radius: 0.5rem; padding: 1rem; margin-top: 2rem; background-color: white; box-shadow: 0 0 5px rgba(0,0,0,.03), 0 5px 22px -8px rgba(0,0,0,.1); z-index: 2;";
+        const cardLinkCSS: string = "font-family: 'Nunito Sans', sans-serif; font-weight: 700; font-size: 1.7rem; color: black; text-decoration: none; margin: 0rem; padding: 0rem;";
+        const cardpCSS: string = "font-family: 'Nunito Sans', sans-serif; font-weight: 300; font-size: 1rem; margin: 0rem; padding: 0rem; margin-bottom: 0.9rem; margin-top: 0.2rem;";
+
         
-        for(var i=0; i<1; i++){
+        for(var i=0; i<2; i++){
           const title = posts[i]["title"]
           const link = posts[i]["link"]
           const date = this.getDate(posts[i]["pubDate"])
 
           var card_string = `
-          <div class="card">
-                <a href="${link}">${title}</a>
-                <p>Published ${date}</p>
+          <div class="card" style="${cardCSS}">
+                <a style="${cardLinkCSS}" href="${link}">${title}</a>
+                <p style="${cardpCSS}" >Published ${date}</p>
                 <i class="fab fa-medium-m"></i>
           </div>
           `
@@ -70,8 +76,6 @@ export class BlogComponent implements OnInit {
 
 
       });
-
-      document.getElementById("recent_posts_container_id").innerHTML = "Apple";
   }
 
 }
