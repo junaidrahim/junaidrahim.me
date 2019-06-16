@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "build-frontend": "cd frontend/ && ng build --prod --base-href \"https://junaidrahim.github.io/junaidrahim.me/\"",
-    "deploy": "ngh -d public"
+    "build-frontend": "cd frontend/ && ng build --prod --base-href \"https://junaidrahim.github.io\"",
   },
   "repository": {
     "type": "git",
