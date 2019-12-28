@@ -50,7 +50,6 @@ export class BlogComponent implements OnInit {
 
   ngOnInit() {
       this.http.get(this.url).subscribe((data)=>{
-        console.log(data);
         const posts = data["items"];
 
         const cardCSS: string = "border-radius: 0.5rem; padding: 1rem; margin-top: 2rem; background-color: white; box-shadow: 0 0 5px rgba(0,0,0,.03), 0 5px 22px -8px rgba(0,0,0,.1); z-index: 2;";
