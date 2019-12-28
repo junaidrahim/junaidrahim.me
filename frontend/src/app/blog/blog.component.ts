@@ -58,7 +58,7 @@ export class BlogComponent implements OnInit {
         const cardpCSS: string = "font-family: 'Nunito Sans', sans-serif; font-weight: 300; font-size: 1rem; margin: 0rem; padding: 0rem; margin-bottom: 0.9rem; margin-top: 0.2rem;";
 
         
-        for(var i=0; i<2; i++){
+        for(var i=0; i<3; i++){
           const title = posts[i]["title"]
           const link = posts[i]["link"]
           const date = this.getDate(posts[i]["pubDate"])
