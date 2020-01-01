@@ -1,3 +1,5 @@
+// Just for testing static serving
+
 const express = require('express');
 
 const server = express();
