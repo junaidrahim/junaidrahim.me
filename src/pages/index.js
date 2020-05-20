@@ -1,21 +1,40 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
+import Helmet from "react-helmet"
 import SEO from "../components/seo"
 
+import Home from "../components/home/Home"
+import AboutMe from "../components/about-me/AboutMe"
+import Technologies from "../components/technologies/Technologies"
+import Projects from "../components/projects/Projects"
+import Blog from "../components/blog/Blog"
+import Contact from '../components/contact/Contact'
+
+import "./index.css"
+
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div>
+        <Helmet>
+            <link
+                rel="stylesheet"
+                href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+                integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+                crossorigin="anonymous"
+            ></link>
+            <link
+                href="https://fonts.googleapis.com/css?family=Caveat|Nunito+Sans:200,300,400,700,800,900"
+                rel="stylesheet"
+            ></link>
+        </Helmet>
+
+        <SEO title="Junaid Rahim" />
+        
+        <Home></Home>
+        <AboutMe></AboutMe>
+        <Technologies></Technologies>
+        <Projects></Projects>
+        <Blog></Blog>
+        <Contact></Contact>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
 )
 
 export default IndexPage

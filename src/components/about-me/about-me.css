@@ -1,0 +1,85 @@
+.about-me_container {
+    margin: 0rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.2rem;
+}
+
+.about-me_container .intro {
+    padding-left: 2rem;
+}
+
+.about-me_container .intro h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    margin: 0rem;
+    margin-top: 1.5rem;
+    font-size: 3rem;
+    color: black;
+}
+
+.about-me_container .intro h1 span {
+    font-weight: 700;
+}
+
+.about-me_container .intro h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+    margin: 0rem;
+    font-size: 1.3rem;
+    color: #00897b ;
+}
+
+.about-me_container .intro p {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.4rem;
+    margin: 0rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.about-me_container .intro p a {
+    color: #00897b;
+}
+
+.about-me_container .intro .link {
+    margin-left: 1rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    text-decoration: none;
+}
+
+.about-me_container .intro .breaker {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .about-me_container {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .about-me_container .intro{
+        padding-left: 1rem;
+    }
+
+    .about-me_container .intro .breaker {
+        display: inline;
+    }
+
+    .about-me_container .intro .github {
+        margin-left: 0rem;
+    }
+}
+

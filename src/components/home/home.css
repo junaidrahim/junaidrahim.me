@@ -1,0 +1,155 @@
+.home_container {
+	background-color: #212121;
+	height: 100%;
+}
+
+/* ################# Navbar #############*/
+nav {
+	width: 100%;
+	margin: 0rem;
+	padding-top: 1rem;
+	background-color: #212121;
+}
+
+nav ul {
+	margin: 0rem;
+	padding: 0rem;
+	overflow: hidden;
+	margin-right: 2rem;
+}
+
+nav ul li {
+	list-style: none;
+	margin: 0rem;
+	padding: 1rem;
+	font-family: "Nunito Sans",sans-serif;
+	font-weight: 300;
+	font-size: 1.2rem;
+	cursor: pointer;
+	display: block;
+}
+
+nav ul li.nav_element {
+	color: #b2dfdb;
+	float: right;
+}
+
+nav ul li.nav_menu {
+	color: white;
+	display: none
+}
+
+nav ul li.nav_element:hover {
+	transition: 0.4s;
+	color: white;
+	font-weight: 800;
+}
+
+nav ul li.brand{
+	color: white;
+	float: left; 
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-left: 1rem;
+	cursor: auto;
+}
+
+@media screen and (max-width: 900px) {
+	nav ul li.nav_element {
+		display: none;
+	}
+}
+
+/* #################### HOME #############################*/
+
+.home_container h1 {
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 200;
+	font-size: 3.1rem;
+	margin: 0rem;
+	padding: 0rem;
+	margin-left: 3rem;
+	padding-top: 4rem;
+	color: #b2dfdb;
+}
+
+.home_container h1 br {
+	display: none;
+}
+
+.home_container h1 span.name {
+	font-weight: 900;
+	font-size: 5rem;
+	color: white;
+	margin-left: 0.3rem;
+}
+
+.home_container h2 {
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 300;
+	font-size: 1.6rem;
+	color: white;
+	margin: 0rem;
+	padding: 0rem;
+	margin-left: 3rem;
+}
+
+.home_container h2.email, .home_container h2.chat_notif, .home_container h2.blog {
+	color: #b2dfdb;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+}
+
+.home_container h2.blog a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 300;
+}
+
+.home_container h2.blog a i {
+	font-size: 1rem;
+}
+
+.home_container h2.blog a:hover {
+	transition: 0.6s;
+	font-weight: 800;
+}
+
+.home_container .social_media_container {
+	margin-left: 3rem;
+	margin-top: 2rem;
+}
+
+.home_container .social_media_container a {
+	margin-right: 1.5rem;
+}
+
+.home_container .social_media_container img {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+
+@media screen and (max-width: 600px) {
+	.home_container h1, .home_container h2, .home_container .social_media_container{
+		margin-left: 2rem;
+	}
+
+	.home_container h1 {
+		font-size: 2.5rem;
+	}
+
+	.home_container h1 br {
+		display: block;
+	}
+
+	.home_container h1 span.name {
+		font-size: 4.5rem;
+		margin-left: 0rem;
+	}
+
+	.home_container h2 {
+		font-size: 1.5rem;
+	}
+}
