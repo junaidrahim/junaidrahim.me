@@ -1,13 +1,12 @@
 # Personal Portfolio
 
-Simple Angluar App. The build output is copied in [this](https://github.com/junaidrahim/junaidrahim.github.io) repository for hosting purposes.
+Simple GatsbyJS App. The build output is copied in [this](https://github.com/junaidrahim/junaidrahim.github.io) repository for hosting purposes.
 
 ### To run in local env:
 
-* make sure Angular is installed
-* `cd frontend`
-* `ng serve`
-* site will be available at `localhost:4200` 
+* make sure you have gatsby installed
+* `npm start`
+* site will be available at `localhost:8000` 
 
 Hosted at [junaidrahim.me](https://junaidrahim.me)
 
