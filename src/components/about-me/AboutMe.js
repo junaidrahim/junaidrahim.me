@@ -55,7 +55,7 @@ export default function AboutMe() {
                     <a
                         class="link resume"
                         target="_blank" rel="noopener noreferrer"
-						href="https://drive.google.com/open?id=1r9PLM_FsNILzdljZ0SXrnddtfOEzcIb0"
+						href="https://rawcdn.githack.com/junaidrahim/resume/e08b5d7f845cf0264293c6ea4627fccdb977f4a7/June 2020/resume.pdf"
 						style={{ marginLeft: '0rem', backgroundColor: '#2196fc'}}
                     >
                         <i class="far fa-file"></i> My Resume

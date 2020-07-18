@@ -4,7 +4,6 @@ echo "..."
 
 echo "Removing Files"
 rm -rf ../junaidrahim.github.io/*
-echo "junaidrahim.me" > ../junaidrahim.github.io/CNAME
 cp -r public/* ../junaidrahim.github.io/
 
 echo -e "\e[1;32mStarting Commit and Push\e[0m"
